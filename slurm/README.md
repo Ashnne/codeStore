@@ -13,7 +13,7 @@ slurm集群一般使用srun进行交互调试，
 
 # 一些关于申请资源配置文件
 #SBATCH --job-name=recon              # 任务名
-#SBATCH -p gpu                        # 资源的队列
+#SBATCH -p gpu                        # 资源的队列 SH-HKU集群中，有gpux gpu Low High cpu几个队列，其中使用4/8 gpus的任务将自动归类到gpux队列中，不使用gpu的任务将自动归类到cpu队列中
 #SBATCH --nodes=1                     # 申请节点的数量
 #SBATCH --cpus-per-task=16            # 每个节点上的cpu 
 # TODO: 把task搞清楚怎么用
