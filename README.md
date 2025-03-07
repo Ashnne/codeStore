@@ -8,8 +8,10 @@
 
 [MLP](mlp.py) :手写的MLP
 
-[Multiprocess](multiproces.py) :python多进程示例
+[Multiprocess](multiProcess) :python多进程示例
 
 [slurm](slurm) :slurm集群的sbatch提交任务例子
 
 [torch multiprocess](multiProcessTorch/) :用torchrun来并行快速跑pytorch（待建）
+
+[visulization](visulization/) :一些可视化的方法

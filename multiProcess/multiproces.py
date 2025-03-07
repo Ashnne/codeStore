@@ -8,6 +8,7 @@ def f(x,y):
 
 
 def main():
+    
     pool = Pool(processes=3)
     for i in range(10):
         pool.apply_async(f,args=(i,i-1,))
