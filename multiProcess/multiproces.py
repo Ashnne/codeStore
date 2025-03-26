@@ -1,6 +1,8 @@
 from multiprocessing import Pool
 import time
 
+import torch.nn
+
 
 def f(x,y):
     print(x,y)

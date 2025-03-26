@@ -15,3 +15,6 @@
 [torch multiprocess](multiProcessTorch/) :用torchrun来并行快速跑pytorch（待建）
 
 [visulization](visulization/) :一些可视化的方法
+
+[img process](img_process.py) : 一些图像处理的常用方法
+
